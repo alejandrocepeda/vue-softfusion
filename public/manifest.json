@@ -1,0 +1,15 @@
+{
+  "name": "Softfusion",
+  "short_name": "Softfusion",
+  "icons": [
+    {
+      "src": "/img/icons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#6164C1"
+}

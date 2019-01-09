@@ -1,0 +1,32 @@
+// Variables
+@import "variables";
+
+@import '~pretty-checkbox/dist/pretty-checkbox.css';
+
+.pretty input:checked ~ .state.p-success label:after, .pretty.p-toggle .state.p-success label:after {
+  background-color: $primary !important;
+}
+
+.pretty{
+  &.p-switch{
+    & .state{
+      &  label{
+        &:before, &:after{
+          border-color: $switch !important;
+          background-color: $switch !important;
+        }
+      }
+    }
+    &.p-fill{
+      & input:checked ~ .state:before {
+        border-color: $primary !important;
+        background-color: $primary !important;
+      }
+    }
+    & .state{
+      &:before{
+        border: 1px solid $switch !important;
+      }
+    }
+  }
+}

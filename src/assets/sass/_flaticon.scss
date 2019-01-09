@@ -1,0 +1,40 @@
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 09/03/2018 18:13
+  */
+
+@font-face {
+  font-family: "Flaticon";
+  src:url("~@/assets/fonts/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-family: Flaticon;
+  font-size: 1.25rem;
+  font-style: normal;
+}
+
+.flaticon-boat-anchor:before { content: "\f100"; }
+.flaticon-mailbox:before { content: "\f101"; }
+.flaticon-target:before { content: "\f102"; }
+.flaticon-earth:before { content: "\f103"; }
+.flaticon-broker:before { content: "\f104"; }
+.flaticon-two-gears:before { content: "\f105"; }
+.flaticon-rubber:before { content: "\f106"; }
+.flaticon-percentage:before { content: "\f107"; }
+.flaticon-id-card:before { content: "\f108"; }
+.flaticon-cube:before { content: "\f109"; }
+.flaticon-list-searching-variant:before { content: "\f10a"; }
+.flaticon-diamond:before { content: "\f10b"; }
+.flaticon-push-pin:before { content: "\f10c"; }
+.flaticon-dashboard:before { content: "\f10d"; }
+.flaticon-dollar:before { content: "\f10e"; }
+.flaticon-exchange:before { content: "\f10f"; }
+.flaticon-tools:before { content: "\f110"; }
+.flaticon-calculator:before { content: "\f111"; }
+.flaticon-like:before { content: "\f112"; }
