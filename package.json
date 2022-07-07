@@ -27,7 +27,7 @@
     "jspdf-autotable": "^3.0.0-alpha.3",
     "lodash": "^4.17.10",
     "lodash.foreach": "^4.5.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "npm": "^6.4.0",
     "popper": "^1.0.1",
     "popper.js": "^1.14.4",
